@@ -52,9 +52,7 @@ public class Ss_20055 {
 				dur[i+1][0]--;
 				dur[i+1][1]=1;
 				dur[i][1]=0;
-				if(i+1==n) {
-					dur[n][1]=0;
-				}
+				
 			}
 			if (dur[1][0] > 0 && dur[1][1] == 0) {
 				dur[1][0]--;
