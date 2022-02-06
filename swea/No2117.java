@@ -57,7 +57,7 @@ public class No2117 {
 
 			q.offer(new Point(x, y));
 			chk[x][y] = 1;
-			
+
 			if (chk[x][y] != s) {
 				while (!q.isEmpty()) {
 					int nowx = q.peek().x;
@@ -85,7 +85,7 @@ public class No2117 {
 			int cost = s * s + (s - 1) * (s - 1);
 			int house_cnt = 0;
 			if(s==1) cost=1;
-			
+
 			for (int i = 0; i < n; i++) {
 				for (int j = 0; j < n; j++) {
 					if (chk[i][j] != 0 && board[i][j] == 1)
